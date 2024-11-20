@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: composio
+  description: Open-source automation for function calling via LLMs.
+  owner: tech-geek
+spec:
+  type: library
+  lifecycle: experimental
+  links:
+    - url: https://github.com/GitMac32/composio
+      title: Source Repository
