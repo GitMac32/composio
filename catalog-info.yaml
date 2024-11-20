@@ -6,8 +6,5 @@ metadata:
   owner: tech-geek
 spec:
   type: library
-  lifecycle: experimental
-  spec:
-  type: service
   lifecycle: production
   owner: gitmac32
