@@ -2,8 +2,21 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: composio
-  description: Open-source automation for function calling via LLMs.
-  owner: tech-geek
+  title: Composio
+  description: Silly description of Composio
+  annotations:
+    github.com/project-slug: gitmac32/composio2
+    backstage.io/techdocs-ref: dir:. 
+    backstage.io/kubernetes-id: dot
+    backstage.io/kubernetes-namespace: a-team
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=composio
+  tags:
+    - go
+  links:
+    - url: https://composio.dev/
+      title: Agentic Framework
+      icon: dashboard
+      type: Website
 spec:
   type: library
   lifecycle: production
